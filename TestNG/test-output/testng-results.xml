@@ -2,38 +2,40 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="92622" started-at="2021-01-18T08:12:14Z" finished-at="2021-01-18T08:13:47Z">
+  <suite name="Default suite" duration-ms="42491" started-at="2021-01-20T07:04:16Z" finished-at="2021-01-20T07:04:59Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="92622" started-at="2021-01-18T08:12:14Z" finished-at="2021-01-18T08:13:47Z">
-      <class name="org.cts.images.images">
-        <test-method status="PASS" signature="initialization()[pri:0, instance:org.cts.images.images@7c16905e]" name="initialization" is-config="true" duration-ms="36241" started-at="2021-01-18T13:42:14Z" finished-at="2021-01-18T13:42:51Z">
+    <test name="Default test" duration-ms="42491" started-at="2021-01-20T07:04:16Z" finished-at="2021-01-20T07:04:59Z">
+      <class name="org.package1.Images">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:org.package1.Images@7c16905e]" name="initialization" is-config="true" duration-ms="20548" started-at="2021-01-20T12:34:16Z" finished-at="2021-01-20T12:34:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method status="FAIL" signature="verifyAppleImages()[pri:1, instance:org.cts.images.images@7c16905e]" name="verifyAppleImages" duration-ms="56235" started-at="2021-01-18T13:42:51Z" finished-at="2021-01-18T13:43:47Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method status="FAIL" signature="verifyAppleImages()[pri:1, instance:org.package1.Images@7c16905e]" name="verifyAppleImages" duration-ms="21780" started-at="2021-01-20T12:34:37Z" finished-at="2021-01-20T12:34:59Z">
+          <exception class="org.openqa.selenium.InvalidSelectorException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//li[@class='a-spacing-small item imageThumbnail a-declarative'])[1]"}
+              <![CDATA[invalid selector: Unable to locate an element with the xpath expression (//span[text()='iphone 6s (128GB) Import with Warranty (Color: Space Grey)[1]'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '(//span[text()='iphone 6s (128GB) Import with Warranty (Color: Space Grey)[1]']' is not a valid XPath expression.
   (Session info: chrome=87.0.4280.141)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
 System info: host: 'LAPTOP-1BS0KE5L', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\SIVANA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59220}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 1ada9959c324b58826b7f6f2fe0cdc58
-*** Element info: {Using=xpath, value=(//li[@class='a-spacing-small item imageThumbnail a-declarative'])[1]}]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\SIVANA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 79cda4431b48eb2337fc668f722157c7
+*** Element info: {Using=xpath, value=(//span[text()='iphone 6s (128GB) Import with Warranty (Color: Space Grey)[1]']}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//li[@class='a-spacing-small item imageThumbnail a-declarative'])[1]"}
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression (//span[text()='iphone 6s (128GB) Import with Warranty (Color: Space Grey)[1]'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '(//span[text()='iphone 6s (128GB) Import with Warranty (Color: Space Grey)[1]']' is not a valid XPath expression.
   (Session info: chrome=87.0.4280.141)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
 System info: host: 'LAPTOP-1BS0KE5L', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\SIVANA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59220}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 1ada9959c324b58826b7f6f2fe0cdc58
-*** Element info: {Using=xpath, value=(//li[@class='a-spacing-small item imageThumbnail a-declarative'])[1]}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\SIVANA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 79cda4431b48eb2337fc668f722157c7
+*** Element info: {Using=xpath, value=(//span[text()='iphone 6s (128GB) Import with Warranty (Color: Space Grey)[1]']}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -48,7 +50,7 @@ Session ID: 1ada9959c324b58826b7f6f2fe0cdc58
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.cts.images.images.verifyAppleImages(images.java:55)
+	at org.package1.Images.verifyAppleImages(Images.java:39)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -76,11 +78,11 @@ Session ID: 1ada9959c324b58826b7f6f2fe0cdc58
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAppleImages -->
-      </class> <!-- org.cts.images.images -->
+      </class> <!-- org.package1.Images -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

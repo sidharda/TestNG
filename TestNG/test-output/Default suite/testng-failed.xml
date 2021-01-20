@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="org.cts.images.images">
+      <class name="org.package1.Images">
         <methods>
-          <include name="initialization"/>
           <include name="verifyAppleImages"/>
+          <include name="initialization"/>
         </methods>
-      </class> <!-- org.cts.images.images -->
+      </class> <!-- org.package1.Images -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

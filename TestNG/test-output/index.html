@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\sivananda\AppData\Local\Temp\testng-eclipse--1575423707\testng-customsuite.xml</span>
+                    <span>C:\Users\sivananda\AppData\Local\Temp\testng-eclipse-492436976\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -102,7 +102,7 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="org.cts.images.images" hash-for-method="verifyAppleImages">verifyAppleImages</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="org.package1.Images" hash-for-method="verifyAppleImages">verifyAppleImages</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -120,7 +120,7 @@
           <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">org.cts.images.images</span>
+              <span class="class-name">org.package1.Images</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -128,15 +128,16 @@
                   <a name="verifyAppleImages">
                   </a> <!-- verifyAppleImages -->
                   <span class="method-name">verifyAppleImages</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//li[@class=&apos;a-spacing-small item imageThumbnail a-declarative&apos;])[1]&quot;}
+                  <div class="stack-trace">org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression (//span[text()=&apos;iphone 6s (128GB) Import with Warranty (Color: Space Grey)[1]&apos;] because of the following error:
+SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;(//span[text()=&apos;iphone 6s (128GB) Import with Warranty (Color: Space Grey)[1]&apos;]&apos; is not a valid XPath expression.
   (Session info: chrome=87.0.4280.141)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
 System info: host: &apos;LAPTOP-1BS0KE5L&apos;, ip: &apos;192.168.0.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\SIVANA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59220}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 1ada9959c324b58826b7f6f2fe0cdc58
-*** Element info: {Using=xpath, value=(//li[@class=&apos;a-spacing-small item imageThumbnail a-declarative&apos;])[1]}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\SIVANA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 79cda4431b48eb2337fc668f722157c7
+*** Element info: {Using=xpath, value=(//span[text()=&apos;iphone 6s (128GB) Import with Warranty (Color: Space Grey)[1]&apos;]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -151,7 +152,7 @@ Session ID: 1ada9959c324b58826b7f6f2fe0cdc58
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.cts.images.images.verifyAppleImages(images.java:55)
+	at org.package1.Images.verifyAppleImages(Images.java:39)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -186,7 +187,7 @@ Session ID: 1ada9959c324b58826b7f6f2fe0cdc58
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\sivananda\AppData\Local\Temp\testng-eclipse--1575423707\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\sivananda\AppData\Local\Temp\testng-eclipse-492436976\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -195,7 +196,7 @@ Session ID: 1ada9959c324b58826b7f6f2fe0cdc58
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;org.cts.images.images&quot;/&gt;
+      &lt;class name=&quot;org.package1.Images&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -238,13 +239,13 @@ data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verifyAppleImages')
-data.setCell(0, 2, 'org.cts.images.images')
-data.setCell(0, 3, 56235);
+data.setCell(0, 2, 'org.package1.Images')
+data.setCell(0, 3, 21780);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 56 seconds</span>
+              <span class="suite-total-time">Total running time: 21 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -270,7 +271,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">org.cts.images.images</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">org.package1.Images</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">initialization</span>
                 <span class="method-start">0 ms</span>
@@ -279,7 +280,7 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">verifyAppleImages</span>
-                <span class="method-start">36299 ms</span>
+                <span class="method-start">20614 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
